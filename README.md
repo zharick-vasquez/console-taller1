@@ -95,8 +95,12 @@ La interfaz de usuario debe tener un menú con las siguientes opciones:
 
 Cada opción se debe implementar como un método de una clase que representa la interfaz por consola.
 
-Además se debe implementar un método que tenga el ciclo principal de la aplicación. El ciclo debe mostrar el menú y
+Además, se debe implementar un método que tenga el ciclo principal de la aplicación. El ciclo debe mostrar el menú y
 ejecutar la opción seleccionada por el usuario. El ciclo debe terminar cuando el usuario seleccione la opción de salir.
+
+ > **Consejo**: Si vas a utilizar alguna librería externa para manejar la interfaz de usuario, asegúrate de que
+ > de instalarla en el entorno virtual de tu proyecto. Puedes usar el comando `uv add <nombre_paquete>` para instalar
+ > paquetes en tu entorno virtual.
 
 ## 4. Script principal
 
