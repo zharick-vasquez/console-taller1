@@ -64,8 +64,8 @@ constructor y debe tener como valor por defecto una lista vacía.
 `str` e `importance` de tipo `str` y devuelve un `int` con el código de la nota. El método debe hacer lo siguiente:
 
   - Generar un nuevo código para la nota. El código debe ser un entero único mayor que 0. Puedes usar la función `len` 
-  para obtener el número de notas y agregar 1 para obtener el nuevo código. Debes tener cuidado de no agregar un código
-  repetido.
+  para obtener el número de notas y agregar 1 para obtener el nuevo código. **Debes tener cuidado de no agregar un código
+  repetido**.
   - Crear un nuevo objeto `Note` con los parámetros recibidos y el código generado.
   - Agregar la nueva nota al atributo `notes`.
   - Devolver el código de la nota.
