@@ -98,7 +98,7 @@ Cada opción se debe implementar como un método de una clase que representa la 
 Además, se debe implementar un método que tenga el ciclo principal de la aplicación. El ciclo debe mostrar el menú y
 ejecutar la opción seleccionada por el usuario. El ciclo debe terminar cuando el usuario seleccione la opción de salir.
 
- > **Consejo**: Si vas a utilizar alguna librería externa para manejar la interfaz de usuario, asegúrate de que
+ > **Consejo**: Si vas a utilizar alguna librería externa para manejar la interfaz de usuario, asegúrate
  > de instalarla en el entorno virtual de tu proyecto. Puedes usar el comando `uv add <nombre_paquete>` para instalar
  > paquetes en tu entorno virtual.
 
