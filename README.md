@@ -11,8 +11,8 @@ El sistema debe asignar un identificador único a cada nota.
 - Mostrar notas por etiqueta.
 - Mostrar la etiqueta con más notas.
 
-Tu tarea es implementar las clases del modelo en el archivo `notebook/notebook.py` y las interfaz de usuario en 
-el archivo `notebook/console.py`. 
+Tu tarea es implementar las clases del modelo en el archivo `notebook/notebook.py` y las
+clases de la interfaz de usuario en el archivo `notebook/console.py`. 
 
 Considera los siguientes aspectos para la implementación:
 
