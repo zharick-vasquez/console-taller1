@@ -26,7 +26,18 @@ class Note:
 
 class Notebook:
     def __init__(self, notes: list[Note]):
-        notes: list[Note]
+        notes: list[Note] = []
+
+    def add_note(self, title: str, text: str, importance: str) -> int :
+        self.title: str = title
+        new_code = len(self.notes) + 1
+        while (note.code == new_code for note in self.notes):
+            new_code += 1
+            new_note = Note(title, text, importance, new_code)
+            self.notes.append(new_note)
+            return new_code
+
+    def delete_note(self, code: int):
 
 
 
